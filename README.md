@@ -1,6 +1,12 @@
 # UniParser: Multi-Human Parsing with 
 ## Unified Correlation Representation Learning
 
+## Checkpoints
+
+BaiduNetdisk
+link：https://pan.baidu.com/s/1Fii_crsmVNS9JbGnJb8i6w?pwd=218r 
+code：218r 
+
 ## Introduction
 
 Multi-human parsing is an image segmentation task necessitating both instance-level and fine-grained category-level information. However, prior research has typically processed these two types of information through separate branches and distinct output formats, leading to inefficient and redundant frameworks. This paper introduces UniParser, which integrates instance-level and category-level representations in three key aspects: 1) we propose a unified correlation representation learning approach, allowing our network to learn instance and category features within the cosine space; 2) we unify the form of outputs of each modules as pixel-level segmentation results while supervising instance and category features using a homogeneous label accompanied by an auxiliary loss; and 3) we design a joint optimization procedure to fuse instance and category representations. By virtual of unifying instance-level and category-level output, UniParser circumvents manually designed post-processing techniques and surpasses state-of-the-art methods, achieving 49.3% AP on MHPv2.0 and 60.4% AP on CIHP.
